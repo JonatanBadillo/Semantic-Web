@@ -1,0 +1,136 @@
+<!-- Construir una lista de 10 libros de Web semántica, proponga por lo menos 10 elementos que los representen. -->
+
+<libros_semantica>
+    <libro>
+        <titulo>Semantic Web for the Working Ontologist</titulo>
+        <autor>Dean Allemang</autor>
+        <autor>James Hendler</autor>
+        <editorial>Morgan Kaufmann</editorial>
+        <anio_publicacion>2011</anio_publicacion>
+        <numero_paginas>384</numero_paginas>
+        <isbn>9780123859655</isbn>
+        <idioma>Inglés</idioma>
+        <edicion>2ª edición</edicion>
+        <categoria>Web Semántica</categoria>
+        <palabras_clave>Ontologías, RDF, SPARQL, OWL</palabras_clave>
+    </libro>
+    <libro>
+        <titulo>Foundations of Semantic Web Technologies</titulo>
+        <autor>Pascal Hitzler</autor>
+        <autor>Markus Krötzsch</autor>
+        <autor>Sebastian Rudolph</autor>
+        <editorial>CRC Press</editorial>
+        <anio_publicacion>2009</anio_publicacion>
+        <numero_paginas>456</numero_paginas>
+        <isbn>9781420090505</isbn>
+        <idioma>Inglés</idioma>
+        <edicion>1ª edición</edicion>
+        <categoria>Web Semántica</categoria>
+        <palabras_clave>RDF, OWL, SPARQL, Lógica</palabras_clave>
+    </libro>
+    <libro>
+        <titulo>Semantic Web Programming</titulo>
+        <autor>John Hebeler</autor>
+        <autor>Matthew Fisher</autor>
+        <autor>Ryan Blace</autor>
+        <editorial>Wiley</editorial>
+        <anio_publicacion>2009</anio_publicacion>
+        <numero_paginas>652</numero_paginas>
+        <isbn>9780470418017</isbn>
+        <idioma>Inglés</idioma>
+        <edicion>1ª edición</edicion>
+        <categoria>Web Semántica</categoria>
+        <palabras_clave>RDF, OWL, Jena, SPARQL</palabras_clave>
+    </libro>
+    <libro>
+        <titulo>Learning SPARQL</titulo>
+        <autor>Bob DuCharme</autor>
+        <editorial>O'Reilly Media</editorial>
+        <anio_publicacion>2013</anio_publicacion>
+        <numero_paginas>386</numero_paginas>
+        <isbn>9781449371432</isbn>
+        <idioma>Inglés</idioma>
+        <edicion>2ª edición</edicion>
+        <categoria>Web Semántica</categoria>
+        <palabras_clave>SPARQL, RDF, Triplestore, Consultas</palabras_clave>
+    </libro>
+    <libro>
+        <titulo>Programming the Semantic Web</titulo>
+        <autor>Toby Segaran</autor>
+        <autor>Colin Evans</autor>
+        <autor>Jamie Taylor</autor>
+        <editorial>O'Reilly Media</editorial>
+        <anio_publicacion>2009</anio_publicacion>
+        <numero_paginas>302</numero_paginas>
+        <isbn>9780596153816</isbn>
+        <idioma>Inglés</idioma>
+        <edicion>1ª edición</edicion>
+        <categoria>Web Semántica</categoria>
+        <palabras_clave>RDF, OWL, SPARQL, Linked Data</palabras_clave>
+    </libro>
+    <libro>
+        <titulo>The Semantic Web: A Guide to the Future of XML, Web Services, and Knowledge Management</titulo>
+        <autor>Michael C. Daconta</autor>
+        <autor>Leo Obrst</autor>
+        <autor>Kevin T. Smith</autor>
+        <editorial>Wiley</editorial>
+        <anio_publicacion>2003</anio_publicacion>
+        <numero_paginas>312</numero_paginas>
+        <isbn>9780471432579</isbn>
+        <idioma>Inglés</idioma>
+        <edicion>1ª edición</edicion>
+        <categoria>Web Semántica</categoria>
+        <palabras_clave>XML, RDF, OWL, Web Services</palabras_clave>
+    </libro>
+    <libro>
+        <titulo>Ontology Engineering in a Networked World</titulo>
+        <autor>Mario Gómez-Rodríguez</autor>
+        <editorial>Springer</editorial>
+        <anio_publicacion>2013</anio_publicacion>
+        <numero_paginas>450</numero_paginas>
+        <isbn>9783642349267</isbn>
+        <idioma>Inglés</idioma>
+        <edicion>1ª edición</edicion>
+        <categoria>Web Semántica</categoria>
+        <palabras_clave>Ontologías, Ingeniería, Linked Data</palabras_clave>
+    </libro>
+    <libro>
+        <titulo>Semantic Web Technologies: Trends and Research in Ontology-Based Systems</titulo>
+        <autor>John Davies</autor>
+        <autor>Rudi Studer</autor>
+        <autor>Paul Warren</autor>
+        <editorial>Wiley</editorial>
+        <anio_publicacion>2006</anio_publicacion>
+        <numero_paginas>326</numero_paginas>
+        <isbn>9780470025963</isbn>
+        <idioma>Inglés</idioma>
+        <edicion>1ª edición</edicion>
+        <categoria>Web Semántica</categoria>
+        <palabras_clave>Ontologías, RDF, OWL, Sistemas Basados en Conocimiento</palabras_clave>
+    </libro>
+    <libro>
+        <titulo>Introduction to the Semantic Web and Semantic Web Services</titulo>
+        <autor>Liyang Yu</autor>
+        <editorial>CRC Press</editorial>
+        <anio_publicacion>2007</anio_publicacion>
+        <numero_paginas>352</numero_paginas>
+        <isbn>9780849374028</isbn>
+        <idioma>Inglés</idioma>
+        <edicion>1ª edición</edicion>
+        <categoria>Web Semántica</categoria>
+        <palabras_clave>Web Services, RDF, Ontologías, XML</palabras_clave>
+    </libro>
+    <libro>
+        <titulo>Linked Data: Evolving the Web into a Global Data Space</titulo>
+        <autor>Tom Heath</autor>
+        <autor>Christian Bizer</autor>
+        <editorial>Now Publishers Inc.</editorial>
+        <anio_publicacion>2011</anio_publicacion>
+        <numero_paginas>140</numero_paginas>
+        <isbn>9781601984421</isbn>
+        <idioma>Inglés</idioma>
+        <edicion>1ª edición</edicion>
+        <categoria>Web Semántica</categoria>
+        <palabras_clave>Linked Data, RDF, SPARQL, Open Data</palabras_clave>
+    </libro>
+</libros_semantica>
