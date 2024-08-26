@@ -1,0 +1,41 @@
+<cartelera>
+    <pelicula>
+        <titulo>Inception</titulo>
+        <idioma>Inglés</idioma>
+        <duracion>148 minutos</duracion>
+        <horarios>
+            <horario>12:00</horario>
+            <horario>15:30</horario>
+            <horario>18:45</horario>
+        </horarios>
+        <clasificacion>PG-13</clasificacion>
+        <genero>Ciencia ficción</genero>
+        <director>Christopher Nolan</director>
+    </pelicula>
+    <pelicula>
+        <titulo>Parasite</titulo>
+        <idioma>Coreano</idioma>
+        <duracion>132 minutos</duracion>
+        <horarios>
+            <horario>14:00</horario>
+            <horario>17:30</horario>
+            <horario>20:45</horario>
+        </horarios>
+        <clasificacion>R</clasificacion>
+        <genero>Drama</genero>
+        <director>Bong Joon Ho</director>
+    </pelicula>
+    <pelicula>
+        <titulo>Deadpool and Wolverine</titulo>
+        <idioma>Inglés</idioma>
+        <duracion>127 minutos</duracion>
+        <horarios>
+            <horario>11:00</horario>
+            <horario>13:30</horario>
+            <horario>16:45</horario>
+        </horarios>
+        <clasificacion>R</clasificacion>
+        <genero>Ciencia ficción</genero>
+        <director>Shawn Levy</director>
+    </pelicula>
+</cartelera>
