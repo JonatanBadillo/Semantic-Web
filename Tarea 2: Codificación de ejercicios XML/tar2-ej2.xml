@@ -1,3 +1,4 @@
+<!-- Construir un archivo xml, que incluya un catálogo de películas (cartelera). Los elementos que puede considerar son: Título, idioma, duración, horarios, clasificación de la película. Añada otros elementos o atributos que considere importantes.  -->
 <cartelera>
     <pelicula>
         <titulo>Inception</titulo>
