@@ -1,0 +1,84 @@
+<!-- Construir un archivo xml, que incluya por lo menos sus 10 canciones favoritas, añada elementos y atributos que considere representativos de las canciones.  -->
+
+<canciones_fav>
+    <cancion>
+        <titulo>Take Me to Church</titulo>
+        <artista>Hozier</artista>
+        <album>Hozier</album>
+        <duracion>4:01</duracion>
+        <anio_lanzamiento>2013</anio_lanzamiento>
+        <genero>Alternative</genero>
+    </cancion>
+    <cancion>
+        <titulo>Skyfall</titulo>
+        <artista>Adele</artista>
+        <album>Skyfall (Single)</album>
+        <duracion>4:46</duracion>
+        <anio_lanzamiento>2012</anio_lanzamiento>
+        <genero>Soundtrack</genero>
+    </cancion>
+    <cancion>
+        <titulo>Set Fire to the Rain</titulo>
+        <artista>Adele</artista>
+        <album>21</album>
+        <duracion>4:02</duracion>
+        <anio_lanzamiento>2011</anio_lanzamiento>
+        <genero>Pop</genero>
+    </cancion>
+    <cancion>
+        <titulo>One and Only</titulo>
+        <artista>Adele</artista>
+        <album>21</album>
+        <duracion>5:48</duracion>
+        <anio_lanzamiento>2011</anio_lanzamiento>
+        <genero>Pop</genero>
+    </cancion>
+    <cancion>
+        <titulo>Love in the Dark</titulo>
+        <artista>Adele</artista>
+        <album>25</album>
+        <duracion>4:45</duracion>
+        <anio_lanzamiento>2015</anio_lanzamiento>
+        <genero>Soul</genero>
+    </cancion>
+    <cancion>
+        <titulo>Easy on Me</titulo>
+        <artista>Adele</artista>
+        <album>30</album>
+        <duracion>3:44</duracion>
+        <anio_lanzamiento>2021</anio_lanzamiento>
+        <genero>Pop</genero>
+    </cancion>
+    <cancion>
+        <titulo>Rolling in the Deep</titulo>
+        <artista>Adele</artista>
+        <album>21</album>
+        <duracion>3:48</duracion>
+        <anio_lanzamiento>2010</anio_lanzamiento>
+        <genero>Pop</genero>
+    </cancion>
+    <cancion>
+        <titulo>Way Down We Go</titulo>
+        <artista>Kaleo</artista>
+        <album>A/B</album>
+        <duracion>3:34</duracion>
+        <anio_lanzamiento>2015</anio_lanzamiento>
+        <genero>Alternative</genero>
+    </cancion>
+    <cancion>
+        <titulo>Someone Like You</titulo>
+        <artista>Adele</artista>
+        <album>21</album>
+        <duracion>4:45</duracion>
+        <anio_lanzamiento>2011</anio_lanzamiento>
+        <genero>Pop</genero>
+    </cancion>
+    <cancion>
+        <titulo>Love Is a Game</titulo>
+        <artista>Adele</artista>
+        <album>30</album>
+        <duracion>6:43</duracion>
+        <anio_lanzamiento>2021</anio_lanzamiento>
+        <genero>Soul</genero>
+    </cancion>
+</canciones_fav>
