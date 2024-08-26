@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<familia>
+    <persona id="Jony_Badillo" mama="Carolina" papa="Enrique" abuelo_materno="Carlos" abuelo_paterno="Mucio" abuela_materna="Tere" abuela_paterna="Pas" tio="Antonio" tia="Vicky">
+        <nombre>Jonatan</nombre>
+        <apellido>Badillo</apellido>
+        <edad>21</edad>
+    </persona>
+    <persona id="Carolina" mama="Tere" papa="Carlos" hijo="Jony_Badillo">
+        <nombre>Carolina</nombre>
+        <apellido>Tejeda</apellido>
+        <edad>55</edad>
+    </persona>
+    <persona id="Enrique" mama="Pas" papa="Mucio" hijo="Jony_Badillo" hermano="Antonio">
+        <nombre>Enrique</nombre>
+        <apellido>Badillo</apellido>
+        <edad>60</edad>
+    </persona>
+    <persona id="Pas" hijo="Enrique">
+        <nombre>Pas</nombre>
+        <apellido>Badillo</apellido>
+        <edad>80</edad>
+    </persona>
+    <persona id="Mucio" hijo="Enrique">
+        <nombre>Mucio</nombre>
+        <apellido>Badillo</apellido>
+        <edad>85</edad>
+    </persona>
+    <persona id="Carlos" hijo="Carolina">
+        <nombre>Carlos</nombre>
+        <apellido>Tejeda</apellido>
+        <edad>60</edad>
+    </persona>
+    <persona id="Tere" hijo="Carolina">
+        <nombre>Tere</nombre>
+        <apellido>Tejeda</apellido>
+        <edad>65</edad>
+    </persona>
+    <persona id="Antonio" sobrino="Jony_Badillo" papa="Mucio" mama="Pas" hermano="Enrique">
+        <nombre>Antonio</nombre>
+        <apellido>Badillo</apellido>
+        <edad>50</edad>
+    </persona>
+    <persona id="Vicky" sobrino="Jony_Badillo">
+        <nombre>Vicky</nombre>
+        <apellido>Badillo</apellido>
+        <edad>53</edad>
+    </persona>
+</familia>

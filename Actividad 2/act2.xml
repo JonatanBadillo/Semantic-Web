@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <email>
+        <head>
+            <from>
+                <name>Michael Maher</name>
+                <adress>michaelmaher@cs.gu.edu.au</adress>
+            </from>
+            <to>
+                <name>Grigoris Antoniou</name>
+                <adress>grigoris@cs.unibremen.de</adress>
+            </to>
+            <subject>
+                Where is your draft?
+            </subject>
+        </head>
+        <body>
+            Grigoris, where is the draft of the paper you promised me last week?
+        </body>
+    </email>
+
+</root>
