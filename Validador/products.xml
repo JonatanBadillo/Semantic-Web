@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <id>001</id>
+        <name>Smartphone</name>
+        <price>299.99</price>
+    </product>
+    <product>
+        <id>002</id>
+        <name>Laptop</name>
+        <price>not-a-number</price> <!-- Este valor no es decimal, por lo tanto no es válido -->
+    </product>
+</products>
