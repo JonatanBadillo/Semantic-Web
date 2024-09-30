@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="CurriculumVitae">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Persona">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="xs:string"/>
+                            <xs:element name="FechaNacimiento" type="xs:date"/>
+                            <xs:element name="Nacionalidad" type="xs:string"/>
+                            <xs:element name="Contacto">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Email" type="xs:string"/>
+                                        <xs:element name="Telefono" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Educacion">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Grado" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Titulo" type="xs:string"/>
+                                        <xs:element name="Institucion" type="xs:string"/>
+                                        <xs:element name="AñoGraduacion" type="xs:gYear"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ExperienciaLaboral">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Trabajo" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Empresa" type="xs:string"/>
+                                        <xs:element name="Posicion" type="xs:string"/>
+                                        <xs:element name="FechaInicio" type="xs:gYearMonth"/>
+                                        <xs:element name="FechaFin" type="xs:gYearMonth"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Habilidades">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Habilidad" maxOccurs="unbounded" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
