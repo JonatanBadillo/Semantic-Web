@@ -1,0 +1,21 @@
+<!ELEMENT CurriculumVitae (Persona, Educacion, ExperienciaLaboral, Habilidades)>
+<!ELEMENT Persona (Nombre, FechaNacimiento, Nacionalidad, Contacto)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT FechaNacimiento (#PCDATA)>
+<!ELEMENT Nacionalidad (#PCDATA)>
+<!ELEMENT Contacto (Email, Telefono)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>
+<!ELEMENT Educacion (Grado+)>
+<!ELEMENT Grado (Titulo, Institucion, AñoGraduacion)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Institucion (#PCDATA)>
+<!ELEMENT AñoGraduacion (#PCDATA)>
+<!ELEMENT ExperienciaLaboral (Trabajo+)>
+<!ELEMENT Trabajo (Empresa, Posicion, FechaInicio, FechaFin)>
+<!ELEMENT Empresa (#PCDATA)>
+<!ELEMENT Posicion (#PCDATA)>
+<!ELEMENT FechaInicio (#PCDATA)>
+<!ELEMENT FechaFin (#PCDATA)>
+<!ELEMENT Habilidades (Habilidad+)>
+<!ELEMENT Habilidad (#PCDATA)>
