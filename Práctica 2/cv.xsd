@@ -28,7 +28,7 @@
                                     <xs:sequence>
                                         <xs:element name="Titulo" type="xs:string"/>
                                         <xs:element name="Institucion" type="xs:string"/>
-                                        <xs:element name="AñoGraduacion" type="xs:gYear"/>
+                                        <xs:element name="AnioGraduacion" type="xs:gYear"/> <!-- Etiqueta corregida -->
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
