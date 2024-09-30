@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CurriculumVitaes>
+    <CurriculumVitae>
+        <Persona>
+            <Nombre>Juan Pérez</Nombre>
+            <FechaNacimiento>1985-10-12</FechaNacimiento>
+            <Nacionalidad>Mexicana</Nacionalidad>
+            <Contacto>
+                <Email>juan.perez@email.com</Email>
+                <Telefono>555-1234</Telefono>
+            </Contacto>
+        </Persona>
+        <Educacion>
+            <Grado>
+                <Titulo>Licenciatura en Informática</Titulo>
+                <Institucion>Universidad Nacional Autonoma de Mexico</Institucion>
+                <AñoGraduacion>2008</AñoGraduacion>
+            </Grado>
+        </Educacion>
+        <ExperienciaLaboral>
+            <Trabajo>
+                <Empresa>Microsoft</Empresa>
+                <Posicion>Desarrollador de Software</Posicion>
+                <FechaInicio>2010-01</FechaInicio>
+                <FechaFin>2015-06</FechaFin>
+            </Trabajo>
+        </ExperienciaLaboral>
+        <Habilidades>
+            <Habilidad>Programación en Java</Habilidad>
+            <Habilidad>Desarrollo web</Habilidad>
+        </Habilidades>
+    </CurriculumVitae>
+
+    <CurriculumVitae>
+        <Persona>
+            <Nombre>María López</Nombre>
+            <FechaNacimiento>1990-03-22</FechaNacimiento>
+            <Nacionalidad>Colombiana</Nacionalidad>
+            <Contacto>
+                <Email>maria.lopez@email.com</Email>
+                <Telefono>555-5678</Telefono>
+            </Contacto>
+        </Persona>
+        <Educacion>
+            <Grado>
+                <Titulo>Licenciatura en Diseño Gráfico</Titulo>
+                <Institucion>Universidad Nacional de Colombia</Institucion>
+                <AñoGraduacion>2012</AñoGraduacion>
+            </Grado>
+        </Educacion>
+        <ExperienciaLaboral>
+            <Trabajo>
+                <Empresa>Google</Empresa>
+                <Posicion>Diseñadora Gráfica</Posicion>
+                <FechaInicio>2013-05</FechaInicio>
+                <FechaFin>2019-12</FechaFin>
+            </Trabajo>
+        </ExperienciaLaboral>
+        <Habilidades>
+            <Habilidad>Photoshop</Habilidad>
+            <Habilidad>Illustrator</Habilidad>
+        </Habilidades>
+    </CurriculumVitae>
+</CurriculumVitaes>
