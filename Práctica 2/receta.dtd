@@ -1,0 +1,11 @@
+<!ELEMENT Receta (Nombre, Ingredientes, Instrucciones, TiempoPreparacion, Porciones)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Ingredientes (Ingrediente+)>
+<!ELEMENT Ingrediente (NombreIngrediente, Cantidad, Unidad)>
+<!ELEMENT NombreIngrediente (#PCDATA)>
+<!ELEMENT Cantidad (#PCDATA)>
+<!ELEMENT Unidad (#PCDATA)>
+<!ELEMENT Instrucciones (Paso+)>
+<!ELEMENT Paso (#PCDATA)>
+<!ELEMENT TiempoPreparacion (#PCDATA)>
+<!ELEMENT Porciones (#PCDATA)>
