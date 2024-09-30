@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Receta SYSTEM "receta.dtd">
+<Receta>
+    <Nombre>Spaghetti a la Boloñesa</Nombre>
+    <Ingredientes>
+        <Ingrediente>
+            <NombreIngrediente>Spaghetti</NombreIngrediente>
+            <Cantidad>200</Cantidad>
+            <Unidad>gramos</Unidad>
+        </Ingrediente>
+        <Ingrediente>
+            <NombreIngrediente>Carne molida</NombreIngrediente>
+            <Cantidad>500</Cantidad>
+            <Unidad>gramos</Unidad>
+        </Ingrediente>
+    </Ingredientes>
+    <Instrucciones>
+        <Paso>Hervir el spaghetti en agua con sal durante 10 minutos.</Paso>
+        <Paso>Cocinar la carne en una sartén con aceite.</Paso>
+        <Paso>Mezclar la carne con la salsa de tomate.</Paso>
+        <Paso>Servir el spaghetti con la salsa encima.</Paso>
+    </Instrucciones>
+    <TiempoPreparacion>30 minutos</TiempoPreparacion>
+    <Porciones>4</Porciones>
+</Receta>
