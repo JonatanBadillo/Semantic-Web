@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://www.ejemplo.org/">
+
+    <!-- ibro -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/book1">
+        <ex:hasTitle>Example Book Title</ex:hasTitle>
+        <ex:hasAuthor rdf:resource="http://www.ejemplo.org/author1"/>
+        <ex:hasPublisher rdf:resource="http://www.ejemplo.org/publisher1"/>
+        <ex:hasSubject rdf:resource="http://www.ejemplo.org/subject1"/>
+        <ex:publishedIn rdf:resource="http://www.ejemplo.org/year/2024"/>
+    </rdf:Description>
+
+    <!-- autor -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/author1">
+        <ex:hasName>John Doe</ex:hasName>
+    </rdf:Description>
+
+    <!-- publicador -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/publisher1">
+        <ex:hasName>Example Publisher</ex:hasName>
+    </rdf:Description>
+
+    <!-- Descripción del Tema -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/subject1">
+        <ex:hasName>Technology</ex:hasName>
+    </rdf:Description>
+
+    <!-- año de Publicación -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/year/2024">
+        <ex:hasYear>2024</ex:hasYear>
+    </rdf:Description>
+
+</rdf:RDF>
