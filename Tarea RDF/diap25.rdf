@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://www.ejemplo.org/">
+
+    <!-- Definición de Vincent D'Onofrio -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/vincent_donofrio">
+        <ex:has_name>Vincent D'Onofrio</ex:has_name>
+        <ex:starred_in rdf:resource="http://www.ejemplo.org/the_thirteenth_floor"/>
+        <ex:starred_in rdf:resource="http://www.ejemplo.org/law_and_order_criminal_intent"/>
+    </rdf:Description>
+
+    <!-- Definición de The Thirteenth Floor -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/the_thirteenth_floor">
+        <ex:is_a rdf:resource="http://www.ejemplo.org/movie"/>
+        <ex:released_in>1999</ex:released_in>
+        <ex:similar_plot_as rdf:resource="http://www.ejemplo.org/the_matrix"/>
+    </rdf:Description>
+
+    <!-- Definición de Law & Order: Criminal Intent -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/law_and_order_criminal_intent">
+        <ex:is_a rdf:resource="http://www.ejemplo.org/tv_show"/>
+    </rdf:Description>
+
+    <!-- Definición de Chris Noth -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/chris_noth">
+        <ex:starred_in rdf:resource="http://www.ejemplo.org/law_and_order_criminal_intent"/>
+        <ex:starred_in rdf:resource="http://www.ejemplo.org/sex_and_the_city"/>
+    </rdf:Description>
+
+    <!-- Definición de Sex and the City -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/sex_and_the_city">
+        <ex:is_a rdf:resource="http://www.ejemplo.org/tv_show"/>
+    </rdf:Description>
+
+    <!-- Definición de The Matrix -->
+    <rdf:Description rdf:about="http://www.ejemplo.org/the_matrix">
+        <ex:is_a rdf:resource="http://www.ejemplo.org/movie"/>
+        <ex:released_in>1999</ex:released_in>
+    </rdf:Description>
+
+</rdf:RDF>
