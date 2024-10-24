@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vivero SYSTEM "3.dtd">
+<vivero>
+    <ejemplar>
+        <nombre_cientifico>Prunus domestica</nombre_cientifico>
+        <nombre_vulgar>Ciruelo</nombre_vulgar>
+        <origen>Europa y Asia</origen>
+        <cuidados>
+            <riego>Dos veces por semana</riego>
+            <poda>Anual</poda>
+            <luz>Sol</luz>
+            <abono>Semestral</abono>
+        </cuidados>
+        <morfologia>
+            <color_flor>Blanca</color_flor>
+            <raiz>Profunda</raiz>
+            <hoja>Verde claro</hoja>
+        </morfologia>
+    </ejemplar>
+
+    <ejemplar>
+        <nombre_cientifico>Pinus sylvestris</nombre_cientifico>
+        <nombre_vulgar>Pino</nombre_vulgar>
+        <origen>Europa y Asia</origen>
+        <cuidados>
+            <riego>Semanal</riego>
+            <poda>Ocasional</poda>
+            <luz>Sol</luz>
+            <abono>Trimestral</abono>
+        </cuidados>
+        <morfologia>
+            <color_flor>Sin flor</color_flor>
+            <raiz>Profunda</raiz>
+            <hoja>Verde oscuro</hoja>
+        </morfologia>
+    </ejemplar>
+
+    <ejemplar>
+        <nombre_cientifico>Musa acuminata</nombre_cientifico>
+        <nombre_vulgar>Plátano</nombre_vulgar>
+        <origen>Sudeste Asiático</origen>
+        <cuidados>
+            <riego>Tres veces por semana</riego>
+            <poda>Ocasional</poda>
+            <luz>Sol</luz>
+            <abono>Trimestral</abono>
+        </cuidados>
+        <morfologia>
+            <color_flor>Blanca</color_flor>
+            <raiz>Superficial</raiz>
+            <hoja>Verde claro</hoja>
+        </morfologia>
+    </ejemplar>
+
+    <ejemplar>
+        <nombre_cientifico>Eucalyptus globulus</nombre_cientifico>
+        <nombre_vulgar>Eucalipto</nombre_vulgar>
+        <origen>Australia</origen>
+        <cuidados>
+            <riego>Quincenal</riego>
+            <poda>Ocasional</poda>
+            <luz>Sol</luz>
+            <abono>Anual</abono>
+        </cuidados>
+        <morfologia>
+            <color_flor>Blanca</color_flor>
+            <raiz>Profunda</raiz>
+            <hoja>Verde grisáceo</hoja>
+        </morfologia>
+    </ejemplar>
+
+    <ejemplar>
+        <nombre_cientifico>Prunus persica</nombre_cientifico>
+        <nombre_vulgar>Duraznero</nombre_vulgar>
+        <origen>China</origen>
+        <cuidados>
+            <riego>Semanal</riego>
+            <poda>Anual</poda>
+            <luz>Sol</luz>
+            <abono>Trimestral</abono>
+        </cuidados>
+        <morfologia>
+            <color_flor>Rosada</color_flor>
+            <raiz>Profunda</raiz>
+            <hoja>Verde oscuro</hoja>
+        </morfologia>
+    </ejemplar>
+</vivero>

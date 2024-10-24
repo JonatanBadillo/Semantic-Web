@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="vivero">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ejemplar" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre_cientifico" type="xs:string"/>
+              <xs:element name="nombre_vulgar" type="xs:string"/>
+              <xs:element name="origen" type="xs:string"/>
+              <xs:element name="cuidados">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="riego" type="xs:string"/>
+                    <xs:element name="poda" type="xs:string"/>
+                    <xs:element name="luz" type="xs:string"/>
+                    <xs:element name="abono" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="morfologia">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="color_flor" type="xs:string"/>
+                    <xs:element name="raiz" type="xs:string"/>
+                    <xs:element name="hoja" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

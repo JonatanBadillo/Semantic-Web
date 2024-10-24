@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vivero SYSTEM "33.dtd">
+<?xml-stylesheet type="text/xsl" href="33.xsl"?>
+<vivero>
+    <ejemplar>
+        <cientifico>Malus domestica</cientifico>
+        <vulgar>Manzano</vulgar>
+        <origen>Asia Central</origen>
+        <cuidados>
+            <riego>Una vez por semana</riego>
+            <poda>Anual</poda>
+            <luz>Sol</luz>
+            <abono>Trimestral</abono>
+        </cuidados>
+        <morfologia>
+            <color>Blanca o Rosada</color>
+            <raiz>Superficial</raiz>
+            <tipo_hoja>Verde oscuro</tipo_hoja>
+        </morfologia>
+    </ejemplar>
+
+    <ejemplar>
+        <cientifico>Citrus sinensis</cientifico>
+        <vulgar>Naranjo</vulgar>
+        <origen>Asia Sudoriental</origen>
+        <cuidados>
+            <riego>Dos veces por semana</riego>
+            <poda>Ocasional</poda>
+            <luz>Sol</luz>
+            <abono>Semestral</abono>
+        </cuidados>
+        <morfologia>
+            <color>Blanca</color>
+            <raiz>Profunda</raiz>
+            <tipo_hoja>Verde claro</tipo_hoja>
+        </morfologia>
+    </ejemplar>
+
+    <ejemplar>
+        <cientifico>Fragaria × ananassa</cientifico>
+        <vulgar>Fresa</vulgar>
+        <origen>América del Norte</origen>
+        <cuidados>
+            <riego>Frecuente</riego>
+            <poda>Ocasional</poda>
+            <luz>Sol parcial</luz>
+            <abono>Mensual</abono>
+        </cuidados>
+        <morfologia>
+            <color>Blanca</color>
+            <raiz>Superficial</raiz>
+            <tipo_hoja>Verde claro</tipo_hoja>
+        </morfologia>
+    </ejemplar>
+
+    <ejemplar>
+        <cientifico>Rosa × hybrida</cientifico>
+        <vulgar>Rosa</vulgar>
+        <origen>Asia</origen>
+        <cuidados>
+            <riego>Dos veces por semana</riego>
+            <poda>Anual</poda>
+            <luz>Sol parcial</luz>
+            <abono>Trimestral</abono>
+        </cuidados>
+        <morfologia>
+            <color>Roja</color>
+            <raiz>Profunda</raiz>
+            <tipo_hoja>Verde oscuro</tipo_hoja>
+        </morfologia>
+    </ejemplar>
+
+    <ejemplar>
+        <cientifico>Solanum lycopersicum</cientifico>
+        <vulgar>Tomate</vulgar>
+        <origen>América del Sur</origen>
+        <cuidados>
+            <riego>Tres veces por semana</riego>
+            <poda>Ocasional</poda>
+            <luz>Sol</luz>
+            <abono>Mensual</abono>
+        </cuidados>
+        <morfologia>
+            <color>Amarilla</color>
+            <raiz>Superficial</raiz>
+            <tipo_hoja>Verde claro</tipo_hoja>
+        </morfologia>
+    </ejemplar>
+
+    <ejemplar>
+        <cientifico>Helianthus annuus</cientifico>
+        <vulgar>Girasol</vulgar>
+        <origen>América del Norte</origen>
+        <cuidados>
+            <riego>Moderado</riego>
+            <poda>Ocasional</poda>
+            <luz>Sol pleno</luz>
+            <abono>Semestral</abono>
+        </cuidados>
+        <morfologia>
+            <color>Amarilla</color>
+            <raiz>Profunda</raiz>
+            <tipo_hoja>Verde oscuro</tipo_hoja>
+        </morfologia>
+    </ejemplar>
+</vivero>

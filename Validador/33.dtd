@@ -1,0 +1,16 @@
+<!ELEMENT vivero (ejemplar+)>
+<!ELEMENT ejemplar (cientifico, vulgar, origen, cuidados, morfologia)>
+<!ELEMENT cientifico (#PCDATA)>
+<!ELEMENT vulgar (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+
+<!ELEMENT cuidados (riego, poda, luz, abono)>
+<!ELEMENT riego (#PCDATA)>
+<!ELEMENT poda (#PCDATA)>
+<!ELEMENT luz (#PCDATA)>
+<!ELEMENT abono (#PCDATA)>
+
+<!ELEMENT morfologia (color, raiz, tipo_hoja)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT raiz (#PCDATA)>
+<!ELEMENT tipo_hoja (#PCDATA)>
