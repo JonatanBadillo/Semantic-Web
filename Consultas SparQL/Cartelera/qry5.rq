@@ -1,0 +1,5 @@
+PREFIX ex: <http://example.org/>
+
+SELECT (COUNT(?movie) AS ?totalMovies) WHERE { 
+    ?movie a ex:Movie .
+}

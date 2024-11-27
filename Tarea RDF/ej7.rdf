@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+ <!-- Clases -->
+ <rdfs:Class rdf:ID="Continente">
+ <rdfs:label>Continente</rdfs:label>
+ </rdfs:Class>
+ <rdfs:Class rdf:ID="Pais">
+ <rdfs:label>País</rdfs:label>
+ </rdfs:Class>
+ <rdfs:Class rdf:ID="Estado">
+ <rdfs:label>Estado</rdfs:label>
+ </rdfs:Class>
+ <rdfs:Class rdf:ID="Ciudad">
+ <rdfs:label>Ciudad</rdfs:label>
+ </rdfs:Class>
+ <rdfs:Class rdf:ID="Capital">
+ <rdfs:label>Capital</rdfs:label>
+
+ <rdfs:subClassOf rdf:resource="#Ciudad"/>
+ </rdfs:Class>
+ <rdfs:Class rdf:ID="Idioma">
+ <rdfs:label>Idioma</rdfs:label>
+ </rdfs:Class>
+ <rdfs:Class rdf:ID="Nombre">
+ <rdfs:label>Nombre</rdfs:label>
+ </rdfs:Class>
+ <rdfs:Class rdf:ID="Extension">
+ <rdfs:label>Extensión</rdfs:label>
+ </rdfs:Class>
+ <rdfs:Class rdf:ID="NumeroHabitantes">
+ <rdfs:label>Número de Habitantes</rdfs:label>
+ </rdfs:Class>
+ <!-- Propiedades -->
+ <rdf:Property rdf:ID="tieneCapital">
+ <rdfs:label>Tiene capital</rdfs:label>
+ <rdfs:domain rdf:resource="#Pais"/>
+ <rdfs:range rdf:resource="#Capital"/>
+ </rdf:Property>
+ <rdf:Property rdf:ID="tiene">
+ <rdfs:label>Tiene</rdfs:label>
+ <rdfs:domain rdf:resource="#Pais"/>
+ <rdfs:range rdf:resource="#Extension"/>
+ </rdf:Property>
+ <rdf:Property rdf:ID="fronteras">
+ <rdfs:label>Fronteras</rdfs:label>
+ <rdfs:domain rdf:resource="#Pais"/>
+ <rdfs:range rdf:resource="#Pais"/>
+ </rdf:Property>
+ <rdf:Property rdf:ID="colinda">
+ <rdfs:label>Colinda</rdfs:label>
+ <rdfs:domain rdf:resource="#Estado"/>
+ <rdfs:range rdf:resource="#Estado"/>
+ </rdf:Property>
+ <rdf:Property rdf:ID="idiomaOficial">
+ <rdfs:label>Idioma Oficial</rdfs:label>
+ <rdfs:domain rdf:resource="#Pais"/>
+ <rdfs:range rdf:resource="#Idioma"/>
+
+ </rdf:Property>
+ <rdf:Property rdf:ID="es">
+ <rdfs:label>Es</rdfs:label>
+ <rdfs:domain rdf:resource="#Ciudad"/>
+ <rdfs:range rdf:resource="#Capital"/>
+ </rdf:Property>
+ <rdf:Property rdf:ID="nombre">
+ <rdfs:label>Nombre</rdfs:label>
+ <rdfs:domain rdf:resource="#Continente"/>
+ <rdfs:range rdf:resource="#Nombre"/>
+ </rdf:Property>
+ <rdf:Property rdf:ID="numeroDeHabitantes">
+ <rdfs:label>Número de Habitantes</rdfs:label>
+ <rdfs:domain rdf:resource="#Ciudad"/>
+ <rdfs:range rdf:resource="#NumeroHabitantes"/>
+ </rdf:Property>
+</rdf:RDF>

@@ -1,0 +1,9 @@
+PREFIX ex: <http://example.org/>
+
+SELECT ?title ?rating WHERE { 
+    ?movie a ex:Movie ; 
+           ex:title ?title ; 
+           ex:rating ?rating .
+}
+ORDER BY DESC(?rating)
+LIMIT 1

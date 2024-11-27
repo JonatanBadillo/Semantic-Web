@@ -1,0 +1,6 @@
+PREFIX ex: <http://example.org/>
+
+SELECT DISTINCT ?director WHERE { 
+    ?movie a ex:Movie ; 
+           ex:director ?director .
+}

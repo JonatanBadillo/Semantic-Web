@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.org/">
+
+    <!-- Instancia de Película 1 -->
+    <rdf:Description rdf:about="http://example.org/Movie1">
+        <rdf:type rdf:resource="http://example.org/Movie"/>
+        <ex:title>Inception</ex:title>
+        <ex:director>Christopher Nolan</ex:director>
+        <ex:year>2010</ex:year>
+        <ex:rating>8.8</ex:rating>
+    </rdf:Description>
+
+    <!-- Instancia de Película 2 -->
+    <rdf:Description rdf:about="http://example.org/Movie2">
+        <rdf:type rdf:resource="http://example.org/Movie"/>
+        <ex:title>The Dark Knight</ex:title>
+        <ex:director>Christopher Nolan</ex:director>
+        <ex:year>2008</ex:year>
+        <ex:rating>9.0</ex:rating>
+    </rdf:Description>
+
+    <!-- Instancia de Película 3 -->
+    <rdf:Description rdf:about="http://example.org/Movie3">
+        <rdf:type rdf:resource="http://example.org/Movie"/>
+        <ex:title>Interstellar</ex:title>
+        <ex:director>Christopher Nolan</ex:director>
+        <ex:year>2014</ex:year>
+        <ex:rating>8.6</ex:rating>
+    </rdf:Description>
+
+</rdf:RDF>
