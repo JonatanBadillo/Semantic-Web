@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:ex="http://example.org/">
+
+    <!-- Definición de la clase CV -->
+    <rdf:Description rdf:about="http://example.org/CV">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:Description>
+
+    <!-- Definición de la propiedad name -->
+    <rdf:Description rdf:about="http://example.org/name">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://example.org/CV"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+
+    <!-- Definición de la propiedad age -->
+    <rdf:Description rdf:about="http://example.org/age">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://example.org/CV"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </rdf:Description>
+
+    <!-- Definición de la propiedad profession -->
+    <rdf:Description rdf:about="http://example.org/profession">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://example.org/CV"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+
+    <!-- Definición de la propiedad experience -->
+    <rdf:Description rdf:about="http://example.org/experience">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://example.org/CV"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+
+    <!-- Definición de la propiedad education -->
+    <rdf:Description rdf:about="http://example.org/education">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://example.org/CV"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+
+</rdf:RDF>

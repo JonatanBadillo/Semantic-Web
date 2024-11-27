@@ -1,0 +1,7 @@
+PREFIX ex: <http://example.org/>
+
+SELECT ?profession WHERE { 
+    ?cv a ex:CV ; 
+        ex:name "Juan Pérez" ; 
+        ex:profession ?profession .
+}

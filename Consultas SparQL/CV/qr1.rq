@@ -1,0 +1,6 @@
+PREFIX ex: <http://example.org/>
+
+SELECT ?name WHERE { 
+    ?cv a ex:CV ; 
+        ex:name ?name .
+}

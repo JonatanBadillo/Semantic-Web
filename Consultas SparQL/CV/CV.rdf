@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.org/">
+
+    <!-- Instancia de CV -->
+    <rdf:Description rdf:about="http://example.org/CV1">
+        <rdf:type rdf:resource="http://example.org/CV"/>
+        <ex:name>Juan Pérez</ex:name>
+        <ex:age>30</ex:age>
+        <ex:profession>Desarrollador de Software</ex:profession>
+        <ex:experience>
+            <rdf:Bag>
+                <rdf:li>5 años en desarrollo web</rdf:li>
+                <rdf:li>2 años en desarrollo de aplicaciones móviles</rdf:li>
+            </rdf:Bag>
+        </ex:experience>
+        <ex:education>
+            <rdf:Bag>
+                <rdf:li>Licenciatura en Ingeniería Informática</rdf:li>
+                <rdf:li>Máster en Desarrollo de Software</rdf:li>
+            </rdf:Bag>
+        </ex:education>
+    </rdf:Description>
+
+</rdf:RDF>
